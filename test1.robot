@@ -3,7 +3,7 @@ Library    AppiumLibrary
 Library    Selenium2Library
 *** test cases ***
 case1
-    open application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=5.0    deviceName=Galaxy S5    appPackage=com.sec.android.app.popupcalculator    appActivity=.Calculator
+    open application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.1.1    deviceName=Galaxy S5    appPackage=com.google.android.calculator    appActivity=.Calculator
     AppiumLibrary.Click Element    id=com.sec.android.app.popupcalculator:id/bt_01
     AppiumLibrary.Click Element    id=com.sec.android.app.popupcalculator:id/bt_add
     AppiumLibrary.Click Element    id=com.sec.android.app.popupcalculator:id/bt_03
