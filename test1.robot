@@ -20,3 +20,4 @@ case2
     close all browsers
 case3
     should be equal    ${5}    ${5} #注释12354234532
+12333
