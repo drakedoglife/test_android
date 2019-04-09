@@ -19,5 +19,5 @@ case2
     should be equal    ${res}    百度一下，你就知道
     close all browsers
 case3
-    should be equal    ${5}    ${5} #注释12354234532
-12333
+    should be equal    ${5}    ${5}
+
