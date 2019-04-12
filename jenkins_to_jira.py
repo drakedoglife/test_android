@@ -114,7 +114,7 @@ def main():
     build_number, fixes, commits = collect_bug_fix(jenkins_object, job_name, "WCI", last_checkpoint=4)
     build_data = {"bugfix": fixes}
     build_data["commit_list"] = commits
-    build_data["build_name"] = build_env + "#" + build_number
+    build_data["build_name"] = build_env + "#" + str(build_number)
     pprint(build_data)
     
 
