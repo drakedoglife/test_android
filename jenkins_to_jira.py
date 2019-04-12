@@ -98,7 +98,7 @@ def main():
                             "key": "sakura",
                             "token": "zenjoy2019"}
                      }
-    job_name = sys.argv[0]
+    job_name = sys.argv[1]
     if job_name.find("Beta") != -1:
         build_env = "Beta"
     elif job_name.find("Alpha") != -1:
